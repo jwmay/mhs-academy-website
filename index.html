@@ -72,13 +72,38 @@
                 float: left;
             }
             
+            .spotlight {
+                background-image: url("img/spotlight.png");
+                background-position: 98% 0%;
+                background-repeat: no-repeat;
+                background-size: 120px;
+            }
+            
+            .testimonial {
+                background:
+                    url("img/quotation-marks-left.png") 4% 12%/120px no-repeat,
+                    url("img/quotation-marks-right.png") 96% 88%/120px no-repeat;
+                width: 70%;
+                margin-bottom: 20px;
+            }
+            
+            .testimonial-right {
+                position: relative;
+                left: 30%;
+            }
+            
+            .testimonial span {
+                display: block;
+                text-align: right;
+                font-style: normal;
+            }
+            
             .bio {
                 background-color:#616362;
                 color: #FFFFFF;
                 border: 3px groove #ffae19;
                 padding: 20px;
                 margin-bottom: 60px;
-                position: relative;
             }
             
             .bio:last-of-type {
@@ -96,13 +121,6 @@
             
             .bio a:hover {
                 text-decoration: underline;
-            }
-            
-            .icon {
-                height: 80px;
-                position: absolute;
-                top: -40px;
-                right: -40px;
             }
             
             .portrait {
@@ -161,11 +179,6 @@
                 background-color: #ffae19;
             }
             
-            .courses h4 {
-                margin-top: 20px;
-                margin-bottom: 8px;
-            }
-
             .nav ul {
                 list-style-type: none;
                 margin-top: 10px;
@@ -207,45 +220,6 @@
                 border: 2px solid #ffae19;
                 color: #ffae19;
             }
-            
-            .social-media {
-                display: inline-block;
-            }
-            
-            .social-media .media-btn {
-                border-radius: 50px;
-                display: inline-block;
-                position: relative;
-                color: white;
-                background-color:#616362;
-                width: 30px;
-                height: 30px;
-                bottom: -10px;
-            }
-            
-            .social-media .media-btn:hover {
-                background-color: #ffae19;
-                color: #fff;
-                transition: all 0.4s;
-                
-            }
-            
-            .social-media i {
-                position: absolute;
-                bottom: 3px;
-            }
-            
-            .social-media .fa-facebook {
-                left: 9px;     
-            }
-            
-            .social-media .fa-youtube {
-                left: 7px;
-            }
-            
-            .social-media .fa-instagram {
-                left: 8px;
-            }
        </style>
     </head>
     
@@ -254,6 +228,8 @@
             <div class="nav">
                 <ul>
                     <li><a class="line" href="#about">About</a></li>
+                    <li><a class="line" href="#spotlight">Spotlight</a></li>
+                    <li><a class="line" href="#testimonials">Testimonials</a></li>
                     <li><a class="line" href="#instructors">Instructors</a></li>
                 </ul>
             </div>
@@ -281,6 +257,99 @@
                     <p class="lead">
                         A student’s success in the Academy is vital to graduation, and our Academy team
                         is highly committed to helping students reach that goal through the Academy pathway.
+                    </p>
+                </div>
+            </section>
+            
+            <section id="spotlight">
+                <h2>Student Spotlight</h2>
+                <div class="bio spotlight">
+                    <h2>The Academy's First Graduate!</h2>
+                    <h3>Audiel Perez</h3>
+                    <p>
+                        <img class="pull-left portrait" src="img/students/audiel_perez.jpg">
+                        As a sophomore at Legacy High School, Audiel realized that he was headed in a direction
+                        he did not want to go. Part of the problem was the friends that he hung around with.
+                        Audiel was determined that the best thing for him to do was to separate himself from
+                        his friends by going to a different school. This decision was made easier with the
+                        support of his girlfriend Angel. She, too, realized that her future was in jeopardy
+                        and that a change needed to be made. Both Audiel and Angel enrolled at Mojave last
+                        year as juniors and Audiel improved his GPA from 0.89 for his sophomore year to a
+                        3.18 for his junior year. Entering the Mojave Academy this year Audiel needed to
+                        complete his regular senior classes as well as make up credits from his freshman
+                        and sophomore years. The total of classes that he needed to finish was 10. Because
+                        of changes that were made at the beginning of second semester that total became 12.
+                        Audiel has worked diligently in the Academy completing on average 2 classes per
+                        month. He has been an example to his peers for what could be done when roadblocks
+                        are removed and learning is streamlined with an online curriculum. Audiel’s plan
+                        now is to attend CSN and pursue a degree in Music Technology. As the Academy staff,
+                        we wish you well Audiel and expect that Angel will not be far behind you. We wish
+                        you success in all of your future endeavors.
+                    </p>
+                </div>
+            </section>
+            
+            <section id="testimonials" class="testimonials">
+                <h2>Testimonials</h2>
+                <div class="lead testimonial">
+                    <p>
+                        The Academy really helped me get back on track to graduate. When I entered this
+                        school, I was super behind on credits, but now I am going to graduate early. If
+                        you don’t understand your work , the teachers in the academy will help you with
+                        it; they are super reliable. If you are behind on credits, you need to come to
+                        the academy and do your work and graduate early.
+                        <span>Jason, Academy Student</span>
+                    </p>
+                </div>
+                <div class="lead testimonial testimonial-right">
+                    <p>
+                        The Academy is a great opportunity for students who are behind on credits.
+                        It has allowed me to expand my confidence and learning experience on many
+                        levels. Therefore, it allows me to catch up on valuable time of education
+                        lost.
+                        <span>Allie, Academy student</span>
+                    </p>
+                </div>
+                <div class="lead testimonial">
+                    <p>
+                        My experience in the academy has been good. This is where you can really get
+                        work done quicker and get ahead.  It’s a comfortable work environment for
+                        everyone, and the teachers are a great help.
+                        <span>Angel, Academy Student</span>
+                    </p>
+                </div>
+                <div class="lead testimonial testimonial-right">
+                    <p>
+                        I’ve been in the Academy since Aug. 2015. I gotta say that this has been the
+                        best year of school for me by far. Being in the Academy has been such a great
+                        experience because it has allowed me to work on my classes freely and has
+                        given me the opportunity to graduate early. The computer classes are not
+                        hard to get done and the teachers in the Academy are really amazing. The
+                        Academy has been the best thing to ever happen to me in all my years at school.
+                        <span>Audiel, Academy student</span>
+                    </p>
+                </div>
+                <div class="lead testimonial">
+                    <p>
+                        The Academy is a very helpful and productive place to be.  All of the staff
+                        is very helpful and encouraging. I think all students that need more credits
+                        should be in the Academy.
+                        <span>Academy Student</span>
+                    </p>
+                </div>
+                <div class="lead testimonial testimonial-right">
+                    <p>
+                        The Academy is honestly a once in a lifetime opportunity and I am thankful
+                        it was given to me.
+                        <span>Caprice, Academy Student</span>
+                    </p>
+                </div>
+                <div class="lead testimonial">
+                    <p>
+                        My experience in the Academy is relaxing. I just focus on my work in the
+                        chill zone room. My main goal is to graduate and move on to college. The
+                        teachers are here to help me do that.
+                        <span>Jose, Academy Student</span>
                     </p>
                 </div>
             </section>
